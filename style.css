@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kumbh Sans', 'sans-serif';
+    font-size: 18px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+/* Primary */
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+/* Neutral */
+--Dark-gray: hsl(0, 0%, 59%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: var(--Dark-cyan);  
+    background: url(../images/bg-pattern-bottom.svg) hsl(185, 75%, 39%) no-repeat; 
+}
+
+
+.container{
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+    margin-bottom: 5rem;
+    min-height: 270px;
+}
+
+.container b{
+    color: var(--Very-dark-desaturated-blue);
+    text-align: center;
+}
+
+.container small{
+    color: var(--Dark-grayish-blue);
+    text-align: center;
+}
+
+
+
+.container .follow{
+    width: 100%; 
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: solid 1px rgba(150, 150, 150, 0.5);
+}
+
+.container .follow div {
+    padding: 0 1rem;
+}
+
+.container .follow div:nth-child(2) {
+    padding-right: 1.5rem;
+}
+
+.container .follow div {
+    padding: 0 1rem;
+}
+
+.container .follow div {
+    padding: 0 1rem;
+}
+
+.container .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+}
+
+.container .profile-state{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.container .profile-pic img{
+    border-radius: 5em;
+    margin-left: 7rem;
+    margin-top: -3.2em;
+    border: 3px solid #fff;
+}
+
+.container .image img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
