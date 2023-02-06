@@ -27,7 +27,11 @@ body{
     min-height: 100vh;
     padding: 1rem;
     background-color: var(--Dark-cyan);  
-    background: url(../images/bg-pattern-bottom.svg) hsl(185, 75%, 39%) no-repeat; 
+    min-height: 100vh;
+    background-color: var(--Dark-cyan);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 
